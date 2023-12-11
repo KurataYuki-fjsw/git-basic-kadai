@@ -1,0 +1,41 @@
+PS C:\Users\kurat\Desktop\yuki\02_仕事関係\SAMURAI\01_学習\01_cd_git> mkdir git_challenge
+
+
+    ディレクトリ: C:\Users\kurat\Desktop\yuki\02_仕事関係\SAMURAI\01_学習\01_cd_git 
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2023/12/11     11:52                git_challenge
+
+
+PS C:\Users\kurat\Desktop\yuki\02_仕事関係\SAMURAI\01_学習\01_cd_git> cd git_challenge
+PS C:\Users\kurat\Desktop\yuki\02_仕事関係\SAMURAI\01_学習\01_cd_git\git_challenge> git init
+Initialized empty Git repository in C:/Users/kurat/Desktop/yuki/02_仕事関係/SAMURAI/01_学習/01_cd_git/git_challenge/.git/
+PS C:\Users\kurat\Desktop\yuki\02_仕事関係\SAMURAI\01_学習\01_cd_git\git_challenge> git add hello_world.txt
+PS C:\Users\kurat\Desktop\yuki\02_仕事関係\SAMURAI\01_学習\01_cd_git\git_challeng>  git commit -m "hello_world.txtを追加"
+[main (root-commit) bca4fbc] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS C:\Users\kurat\Desktop\yuki\02_仕事関係\SAMURAI\01_学習\01_cd_git\git_challenge> git status
+On branch main
+nothing to commit, working tree clean
+PS C:\Users\kurat\Desktop\yuki\02_仕事関係\SAMURAI\01_学習\01_cd_git\git_challenge> git add hello_world.txt
+PS C:\Users\kurat\Desktop\yuki\02_仕事関係\SAMURAI\01_学習\01_cd_git\git_challenge> git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   hello_world.txt
+
+PS C:\Users\kurat\Desktop\yuki\02_仕事関係\SAMURAI\01_学習\01_cd_git\git_challenge> git log
+commit bca4fbc4a59fb1e516cd53c77226e0a2ba8b8f46 (HEAD -> main)
+Author: KurataYuki-fjsw <kuratayuki12@gmail.com>
+Date:   Mon Dec 11 11:55:34 2023 +0900
+
+    hello_world.txtを追加
+PS C:\Users\kurat\Desktop\yuki\02_仕事関係\SAMURAI\01_学習\01_cd_git\git_challeng>  git commit -m "日本語訳を追記"
+[main 47a0249] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\kurat\Desktop\yuki\02_仕事関係\SAMURAI\01_学習\01_cd_git\git_challenge> git log --oneline
+47a0249 (HEAD -> main) 日本語訳を追記
+bca4fbc hello_world.txtを追加
